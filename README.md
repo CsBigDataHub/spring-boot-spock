@@ -1,4 +1,4 @@
-# Spring Boot Ans Spock
+# Spring Boot And Spock
 I love Spring Boot and Spock. This sample project is to show how to take advantages of both frameworks.
 
 # Spring Boot
