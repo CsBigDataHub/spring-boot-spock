@@ -1,10 +1,11 @@
 # Spring Boot And Spock
 I love Spring Boot and Spock. This sample project is to show how to take advantages of both frameworks.
 
+---
 # Spring Boot
 [Spring Boot](http://projects.spring.io/spring-boot/) is great framework. Not much to say. 
 
-
+---
 # Spock
 [Spock](http://spockframework.org/) is a testing and specification framework for Java and Groovy applications. Compared to other testing framework, Spock is really fastinating. 
 
@@ -33,15 +34,15 @@ def "create user missing required field #field --> #value"(String field, String 
 	then:
 		response.getStatusCode() == HttpStatus.BAD_REQUEST
 	where:
-		field				      | value
-		'firstName'			  | null
-		'firstName'			  | ''
-		'lastName'			  | null
-		'lastName'			  | ''
-		'email'				    | null
-		'email'				    | ''
-		'email'				    | 'notanemailaddress'
-		'mobileNumber'		| null
-		'mobileNumber'		| ''
+		field				| value
+		'firstName'		  	| null
+		'firstName'		  	| ''
+		'lastName'		  	| null
+		'lastName'		  	| ''
+		'email'			  	| null
+		'email'			  	| ''
+		'email'			  	| 'notanemailaddress'
+		'mobileNumber'		  	| null
+		'mobileNumber'		  	| ''
 }
 ```
